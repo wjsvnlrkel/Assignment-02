@@ -195,20 +195,25 @@ header button {
 footer {
     background-color: #121212;
     height: 400px;
-
 }
+
 
 footer h1 {
     padding: 50px 0;
-    margin-left: 500px;
+    /*margin-left: 500px;*/
     color: #f9e42e;
     font-size: 24px;
     font-weight: 800;
 }
 
-footer .social-media, footer p {
+footer h1, footer p {
     padding: 50px 0;
-    margin-left: 500px;
+    margin-left: 550px;
+}
+
+footer .social-media {
+    padding: 50px 0; 
+    margin-left: 530px;
 }
 
 footer p {
