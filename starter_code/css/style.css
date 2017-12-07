@@ -167,6 +167,8 @@ header button {
 }
 
 .testimonial span {
+    display: block;
+    padding-top: 20px;
     font-style: normal;
     font-size: 18px;
     font-weight: 600;
