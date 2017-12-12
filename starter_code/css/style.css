@@ -47,7 +47,6 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 12px;
      line-height: 1.4;
      font-family: 'Open Sans', sans-serif;
      background-size: contain;
@@ -60,9 +59,9 @@ body {
 
 /* Center the container */
 #container {
-  width: 1200px;
-  margin: auto;
-  height: 500px;
+    width: 100%;
+    margin: auto;
+    height: 500px;
 
 }
 
@@ -71,7 +70,7 @@ header {
     background-size:cover;
     width: 100%;
     margin: auto;
-    height: 800px;
+    height: 1200px;
 }
 
 header h1 {
@@ -79,14 +78,15 @@ header h1 {
     font-size: 24px;
     font-weight: 800;
     
-    margin-left: 120px;
-    padding-top: 50px;
+    margin-left: 250px;
+    margin-top: 0;
+    padding-top: 100px;
 }
 
 header h2 {
     position: relative;
-    margin-top: 100px; 
-    margin-left: 360px;
+    margin-top: 300px; 
+    margin-left: 980px;
     margin-right: 30%;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -106,8 +106,8 @@ button {
 
 header button {
     position: absolute;
-    margin-top: 80px;
-    margin-left: 500px;
+    margin-top: 300px;
+    margin-left: 1100px;
     width: 250px;
     
     background-color: #f9e42e;
@@ -150,16 +150,16 @@ header button {
     background-size:cover;
     width:100%;
     margin:auto;
-    height:350px;
+    height:500px;
     color: #fff;
 }
 
 .testimonial blockquote {
     line-height: 1.5;
     text-align: center;
-    margin-left: 420px;
+    margin-left: 850px;
     padding: 0 30px;
-    padding-top: 80px;
+    padding-top: 200px;
     width: 30%;
     font-size: 20px;
     font-weight: lighter;
@@ -167,7 +167,7 @@ header button {
 }
 
 .testimonial span {
-    display: block;
+    display: inline-block;
     padding-top: 20px;
     font-style: normal;
     font-size: 18px;
@@ -183,7 +183,7 @@ header button {
 
 .call-to-action button {
     margin-top: 30px;
-    margin-left: 485px;
+    margin-left: 1100px;
     width: 250px;
     
     background-color: #033048;
@@ -210,12 +210,12 @@ footer h1 {
 
 footer h1, footer p {
     padding: 50px 0;
-    margin-left: 550px;
+    margin-left: 1180px;
 }
 
 footer .social-media {
     padding: 50px 0; 
-    margin-left: 530px;
+    margin-left: 1125px;
 }
 
 footer p {
@@ -225,7 +225,7 @@ footer p {
 }
 
 img {
-    padding: 0 10px;
+    padding: 0 30px;
 }
 
 
